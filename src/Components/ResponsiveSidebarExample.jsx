@@ -1,6 +1,13 @@
+import { Container, Row, Col} from 'react-bootstrap'
+
 export default function ResponsiveSidebarExample() {
   return (
-    <>
-    </>
+    <Container fluid>
+      <Row>
+        <Col xs = '12' md = '6' lg = '3'>Sidebar</Col>
+        <Col xs = '12' md = '6' lg = '9'>Main</Col>
+      </Row>
+      <Row></Row>
+    </Container>
   );
 }
